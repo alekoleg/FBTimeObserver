@@ -13,7 +13,7 @@
 @interface FBTimeModel : NSObject
 
 @property (nonatomic, strong) NSNumber *Id;
-@property (nonatomic, strong) NSTimeInterval timeInterval;
+@property (nonatomic, assign) NSTimeInterval timeInterval;
 @property (nonatomic, copy) FBUnactiveAppTimeObserverDoBlock doBlock;
 
 @end

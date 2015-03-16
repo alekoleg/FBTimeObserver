@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[FBUnactiveAppTimeObserver observer] registerObserver:self forTimeInterval:100 block:^{
-        <#code#>
+        
     }];
 }
 
