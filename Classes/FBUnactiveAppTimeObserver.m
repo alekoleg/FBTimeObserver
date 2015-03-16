@@ -63,7 +63,7 @@
     NSTimeInterval pastTimeInterval = [self.enterForegroundDate timeIntervalSinceDate:self.enterBackgroundDate];
     
     while ((value = [enumerator nextObject])) {
-        FBTimeModel *model = [_map valueForKey:value];
+        FBTimeModel *model = [_map objectForKey:value];
         if (pastTimeInterval >= model.timeInterval) {
             if (model.doBlock) {
                 model.doBlock();
