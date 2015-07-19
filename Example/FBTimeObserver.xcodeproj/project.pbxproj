@@ -16,6 +16,7 @@
 		B35C4F801AB6E29300CA66C4 /* FBTimeObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C4F7F1AB6E29300CA66C4 /* FBTimeObserverTests.m */; };
 		B35C4F8C1AB6E33500CA66C4 /* FBUnactiveAppTimeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C4F8B1AB6E33500CA66C4 /* FBUnactiveAppTimeObserver.m */; };
 		B35C4F8F1AB6FFF600CA66C4 /* FBTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C4F8E1AB6FFF600CA66C4 /* FBTimeModel.m */; };
+		B3CB85561B5C02EC00C1E0E8 /* FBTimeObserver.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B3CB85551B5C02EC00C1E0E8 /* FBTimeObserver.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B35C4F8D1AB6FFF600CA66C4 /* FBTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTimeModel.h; sourceTree = "<group>"; };
 		B35C4F8E1AB6FFF600CA66C4 /* FBTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTimeModel.m; sourceTree = "<group>"; };
 		B35C4F901AB7004F00CA66C4 /* FBTimeObserverCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTimeObserverCommon.h; sourceTree = "<group>"; };
+		B3CB85551B5C02EC00C1E0E8 /* FBTimeObserver.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FBTimeObserver.podspec; path = ../../FBTimeObserver.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		B35C4F621AB6E29300CA66C4 /* FBTimeObserver */ = {
 			isa = PBXGroup;
 			children = (
+				B3CB85551B5C02EC00C1E0E8 /* FBTimeObserver.podspec */,
 				B35C4F891AB6E2BD00CA66C4 /* Classes */,
 				B35C4F671AB6E29300CA66C4 /* AppDelegate.h */,
 				B35C4F681AB6E29300CA66C4 /* AppDelegate.m */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35C4F6F1AB6E29300CA66C4 /* Main.storyboard in Resources */,
+				B3CB85561B5C02EC00C1E0E8 /* FBTimeObserver.podspec in Resources */,
 				B35C4F741AB6E29300CA66C4 /* LaunchScreen.xib in Resources */,
 				B35C4F711AB6E29300CA66C4 /* Images.xcassets in Resources */,
 			);
